@@ -1,7 +1,9 @@
 header {
-    height: 350px;
+    /* height: 350px; */
     background-color: gray;
+
 }
+
 
 ul{
     list-style: none;
@@ -26,7 +28,9 @@ a{
 .container {
     background-image: url("Assets/Images/Coffe_Header.png");
     background-size: cover;
-    height: 478px;
+
+    /* height: 478px; */
+    /* height: 100vh; */
     border-radius: 0px 0px 20px 20px;
 }
 
@@ -39,10 +43,16 @@ a{
 .text {
     font-size: 16px;
     text-align: center;
-    margin-top: 8px;
+    /* margin-top: 8px; */
 }
 
 .text-container {
-    margin-top: 98px;
+    /* margin-top: 98px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #F9FBFE;
-}
+    /* background-color: aqua; */
+    height: 100vh;
+    
+} 
