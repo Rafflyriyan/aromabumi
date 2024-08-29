@@ -1,0 +1,48 @@
+header {
+    height: 350px;
+    background-color: gray;
+}
+
+ul{
+    list-style: none;
+    color: #F9FBFE;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-logo{
+    height: 27px;
+}
+
+.container {
+    background-image: url("Assets/Images/Coffe_Header.png");
+    background-size: cover;
+    height: 478px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.text {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.text-container {
+    margin-top: 98px;
+    color: #F9FBFE;
+}
